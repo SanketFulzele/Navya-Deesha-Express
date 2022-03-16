@@ -1,0 +1,98 @@
+@media (max-width: 1200px) {
+
+.navbar {
+    margin-top: -80px;
+}
+.navbar-toggler-icon {
+    background-color: aqua;
+}
+.navigation {
+    background-color: var(--white-color);
+}
+
+.nav-logo {
+    margin-left: 50px;
+}
+
+.nav-row {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left {
+    margin: 0;
+}
+.nav-right {
+    margin: 0;
+    display: block;
+}
+.top-col {
+    margin: 0;
+    text-align: center;
+}
+
+
+/* banner */
+.carousel-item {
+    height: auto;
+}
+.carousel-caption {
+    top: 40px;
+    left: 70px;
+}
+.banner-text-big {
+    font-weight: 700;
+    font-size: 30px;
+}
+.banner-btn {
+    font-size: 20px;
+}
+
+
+
+/* ship section */
+.button-second {
+    justify-content: center;
+}
+
+.btn-red {
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+/* why section */
+.why-row {
+    display: block;
+}
+
+/* services */
+.services-row {
+    display: block;
+}
+
+.services-column {
+    margin-top: 20px;
+}
+h4 {
+    text-align: center;
+}
+.clients-column {
+    padding: 40px;
+}
+    /* footer */
+    .footer-wrapper{
+        background-color: var(--blue-color);
+    }
+    .footer-row{
+        display: block;
+        justify-content: center;
+    }
+    .footer-column {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0.4rem;
+        margin-top: 0.8rem;
+
+    }
+}
