@@ -227,11 +227,7 @@ h3 {
 .why-section {
     text-align: center;
     color: var(--white-color);
-}
-
-.icons {
-    width: 120px;
-    margin: 30px 0 10px 130px;
+    margin: 20px 0px;
 }
 
 .why-row {
@@ -240,8 +236,23 @@ h3 {
 
 .why-column {
     align-items: center;
-    margin-right: 20px;
+    justify-content: center;
 }
+.icons-div {
+    margin: auto;
+    display: flex;justify-content: center;
+}
+.icons {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.icons-div .rupees {
+    transform: translateX(25px);
+}
+
+
+
 
 /* services */
 
